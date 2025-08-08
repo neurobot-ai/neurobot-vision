@@ -13,11 +13,11 @@
 
 <p>  
 <a href="https://www.neurobot.co">官网</a> •  
-<a href="#功能特性">功能特性</a> •  
-<a href="#平台优势">平台优势</a> •  
-<a href="#开源计划">开源计划</a> •  
-<a href="#部署指南">部署指南</a> •  
-<a href="#贡献指南">贡献指南</a>  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md#-%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7">功能特性</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md#-%E5%B9%B3%E5%8F%B0%E4%BC%98%E5%8A%BF">平台优势</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md#-%E5%BC%80%E6%BA%90%E8%AE%A1%E5%88%92">开源计划</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md#-%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97">部署指南</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md#-%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97">贡献指南</a>  
 </p>  
 </div>
 

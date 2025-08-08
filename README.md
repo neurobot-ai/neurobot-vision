@@ -13,11 +13,11 @@
 
 <p>  
 <a href="https://www.neurobot.co">Official Website</a> •  
-<a href="#Features">Features</a> •  
-<a href="#Platform Advantages">Platform Advantages</a> •  
-<a href="#Open Source Roadmap">Open Source Roadmap</a> •  
-<a href="#Deployment Guide">Deployment Guide</a> •  
-<a href="#Contribution Guide">Contribution Guide</a>  
+<a href="https://github.com/neurobot-ai/neurobot-vision?tab=readme-ov-file#-features">Features</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision?tab=readme-ov-file#-platform-advantages">Platform Advantages</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision?tab=readme-ov-file#-open-source-roadmap">Open Source Roadmap</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision?tab=readme-ov-file#-deployment-guide">Deployment Guide</a> •  
+<a href="https://github.com/neurobot-ai/neurobot-vision?tab=readme-ov-file#-contribution-guide">Contribution Guide</a>  
 </p>  
 
 <p>  
