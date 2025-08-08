@@ -1,144 +1,160 @@
 # NeuroBot Vision
 
-<div align="center">
-<img src="https://app.neurobot.co/homePageResources/pics/neurobot-logo-b.png" alt="NeuroBot Vision Logo" width="200">
-<p>🔥 Open-source online vision development platform that simplifies computer vision application development 🔥</p>
+<div align="center">  
+<img src="https://app.neurobot.co/homePageResources/pics/neurobot-logo-b.png" alt="NeuroBot Vision Logo" width="200">  
+<p>🔥 Open-source online visual development platform to simplify computer vision applications 🔥</p>
 
-<div>
-<a href="https://github.com/neurobot-ai/neurobot-vision/stargazers"><img src="https://img.shields.io/github/stars/neurobot-ai/neurobot-vision" alt="Stars Badge"></a>
-<a href="https://github.com/neurobot-ai/neurobot-vision/network/members"><img src="https://img.shields.io/github/forks/neurobot-ai/neurobot-vision" alt="Forks Badge"></a>
-<a href="https://github.com/neurobot-ai/neurobot-vision/issues"><img src="https://img.shields.io/github/issues/neurobot-ai/neurobot-vision" alt="Issues Badge"></a>
-<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/LICENSE"><img src="https://img.shields.io/github/license/neurobot-ai/neurobot-vision" alt="License Badge"></a>
+<div>  
+<a href="https://github.com/neurobot-ai/neurobot-vision/stargazers"><img src="https://img.shields.io/github/stars/neurobot-ai/neurobot-vision" alt="Stars Badge"></a>  
+<a href="https://github.com/neurobot-ai/neurobot-vision/network/members"><img src="https://img.shields.io/github/forks/neurobot-ai/neurobot-vision" alt="Forks Badge"></a>  
+<a href="https://github.com/neurobot-ai/neurobot-vision/issues"><img src="https://img.shields.io/github/issues/neurobot-ai/neurobot-vision" alt="Issues Badge"></a>  
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/LICENSE"><img src="https://img.shields.io/github/license/neurobot-ai/neurobot-vision" alt="License Badge"></a>  
 </div>
 
-<p>
-<a href="https://www.neurobot.co">Official Website</a> •
-<a href="#features">Features</a> •
-<a href="#platform-advantages">Platform Advantages</a> •
-<a href="#open-source-plan">Open Source Plan</a> •
-<a href="#deployment-guide">Deployment Guide</a> •
-<a href="#contribution-guide">Contribution Guide</a>
-</p>
+<p>  
+🌐 <a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README.md">English</a> | <a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md">中文</a>  
+</p>  
 </div>
-📝 Platform Introduction
-NeuroBot Vision is a powerful online vision development platform designed to lower the barrier to computer vision technology, enabling developers, researchers, and enterprises to quickly build, deploy, and manage vision intelligence applications.
 
-Whether it's object detection, image segmentation, object classification, or more complex vision tasks, NeuroBot Vision provides an intuitive interface and robust backend support, helping users manage the entire workflow from data annotation and model training to application deployment.
+---
 
-The platform adopts a frontend-backend separation architecture, with the frontend built on Vue for interactive interfaces and the backend combining the Spring framework with Python's machine learning ecosystem to provide users with an efficient, stable, and scalable vision development experience.
-✨ Features
-1. Data Management and Annotation
-   Support for uploading and managing multiple image formats
-   Intuitive annotation tools including rectangles, polygons, key points, etc.
-   Annotation progress tracking and team collaborative annotation
-   Data version control and rollback capabilities
-2. Model Training and Management
-   Visual model training workflow with parameter adjustment and optimization
-   Pre-installed classic vision models for out-of-the-box use
-   Custom model training and import functionality
-   Real-time training process monitoring and log analysis
-   Model version management and performance comparison
-3. Vision Task Support
-   Object Detection: Accurately identify and locate multiple objects in images
-   Image Segmentation: Pixel-level target area division
-   Object Classification: Classify and recognize image content
-   Real-time Video Stream Processing: Support real-time analysis of cameras and video files
-4. Application Deployment and Integration
-   One-click deployment of models as API services
-   Support for multiple deployment methods (cloud, edge devices)
-   Provide SDK and API documentation for easy third-party system integration
-   Application performance monitoring and log management
-5. Team Collaboration and Permission Management
-   Multi-role user management and permission control
-   Project sharing and collaborative development
-   Operation logs and audit trails
-   🌟 Platform Advantages
-1. Agent One-Click Development
-   No need to master complex machine learning algorithms; complete vision application development through an intuitive visual interface, significantly reducing technical barriers.
-2. Full Workflow Coverage
-   Provide a one-stop solution from data collection, annotation, model training to application deployment, simplifying the development process and improving work efficiency.
-3. High-Performance Algorithms
-   Based on optimized YOLO series algorithms and other advanced vision models, ensuring a balance between detection accuracy and processing speed to meet various scenario requirements.
-4. Flexible Expansion
-   Modular design enables high scalability, supporting custom algorithm integration and function expansion to adapt to different industry scenarios.
-5. Multi-End Adaptation
-   Support cloud deployment and edge computing, easily integrable into various hardware devices to meet application needs in different environments.
-6. Open Source Ecosystem
-   A completely open-source codebase that allows users to freely customize and secondary develop to build exclusive vision solutions.
-   📅 Open Source Plan
-   This project will be gradually open-sourced in phases. Here is the detailed open-source plan:
+## 📝 English README
 
-Java Common Components (Already open-sourced)
-Basic utility classes
-General service interfaces
-Exception handling mechanisms
-Logging system
-Java Core Modules (Coming soon)
-Business logic processing
-Permission management system
-Data access layer
-Task scheduling system
-SQL Scripts and Database Design (Q3 2025)
-Database table structure
-Initialization scripts
-Data migration tools
-Database optimization schemes
-Frontend Core Code (Q3 2025)
-Vue component library
-State management
-Routing configuration
-Responsive layout implementation
-YOLO Localization Algorithm (Q4 2025)
-Algorithm implementation
-Training scripts
-Pre-trained models
-Performance evaluation tools
-YOLO Segmentation Algorithm (Q4 2025)
-Instance segmentation implementation
-Semantic segmentation support
-Model optimization schemes
-Inference acceleration methods
-YOLO Classification Algorithm (Q4 2025)
-Image classification models
-Transfer learning support
-Multi-label classification
-Model compression schemes
-🚀 Deployment Guide
-⚠️ Note: The current deployment plan is being improved. The following is temporary placeholder content, and detailed deployment steps will be provided in subsequent updates.
+### About the Platform
 
-NeuroBot Vision supports multiple deployment methods to meet different scenario requirements:
+**NeuroBot Vision** is a powerful online visual development platform aimed at lowering the barriers to entry for computer vision technology. It helps developers, researchers, and enterprises build, deploy, and manage intelligent visual applications quickly.
 
-Local Development Environment
-Suitable for developers for secondary development and debugging
-Requires installation of Docker and related dependencies
-Provides one-click startup scripts
-Production Environment Deployment
-Supports Docker Compose cluster deployment
-Kubernetes container orchestration support
-Configurable high availability and load balancing
-Cloud Platform Deployment
-Provides deployment guides for major cloud platforms such as AWS, Alibaba Cloud, Tencent Cloud
-Supports Serverless architecture deployment options
+Whether it's object detection, image segmentation, classification, or more complex tasks, NeuroBot Vision offers an intuitive UI and robust backend support to manage the full lifecycle from data annotation to model training and deployment.
 
-Detailed deployment documentation will be updated simultaneously after the project is fully open-sourced. Stay tuned.
-🤝 Contribution Guide
-We warmly welcome community contributors to participate in the development and optimization of the project!
+The platform adopts a decoupled frontend-backend architecture:
+- **Frontend:** Built with Vue
+- **Backend:** Spring Framework + Python ML ecosystem
 
-Fork this repository
-Create a feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
+### ✨ Features
 
-Please ensure your code complies with the project's coding standards and passes all tests. For more contribution details, please refer to CONTRIBUTING.md.
-📄 License
-This project is licensed under the Apache License 2.0. For details, please see the license file.
-📞 Contact Us
-Official Website: https://www.neurobot.co
-Email: contact@neurobot.co
-GitHub: neurobot-ai (Neurobot) · GitHub
+#### 1. Data Management & Annotation
+- Supports uploading and managing various image formats
+- Provides intuitive annotation tools (bounding boxes, polygons, keypoints)
+- Annotation progress tracking & team collaboration
+- Data versioning and rollback
 
-<div align="center">
-<p>❤️ Thank you for your attention and support for NeuroBot Vision ❤️</p>
-<p>If you find this project valuable, please give us a Star 🌟</p>
+#### 2. Model Training & Management
+- Visualized training process with parameter tuning
+- Built-in classic CV models, ready to use
+- Support for custom model import and training
+- Real-time training logs and monitoring
+- Model versioning and performance comparison
+
+#### 3. Vision Tasks Supported
+- **Object Detection** – Detect and locate multiple targets
+- **Image Segmentation** – Pixel-level object region segmentation
+- **Classification** – Image-level content recognition
+- **Real-time Video** – Supports live camera and video file analysis
+
+#### 4. Deployment & Integration
+- One-click deployment as API service
+- Supports cloud, edge deployment options
+- SDKs and API documentation for easy integration
+- Application performance monitoring and logging
+
+#### 5. Team Collaboration & Permissions
+- Multi-role user and permission control
+- Project sharing and collaborative development
+- Operation logs and auditing
+
+### 🌟 Platform Advantages
+
+1. **Agent-Based Visual Programming**  
+   Build CV applications without deep ML knowledge via GUI
+
+2. **Full Pipeline Coverage**  
+   From annotation to training and deployment, all in one platform
+
+3. **High-Performance Algorithms**  
+   Optimized YOLO series models for balanced accuracy and speed
+
+4. **Flexible Extension**  
+   Modular architecture supports custom models and plugins
+
+5. **Cross-Platform Support**  
+   Adaptable to cloud or edge environments
+
+6. **Open Source Ecosystem**  
+   Fully open-source codebase, customizable for your needs
+
+### 📅 Open Source Roadmap
+
+1. ✅ **Java Common Components**
+    - Utility classes, shared services, exception handling, logging
+
+2. 🕐 **Java Core Modules** (Coming soon)
+    - Business logic, permissions, data access, task scheduling
+
+3. 🕐 **SQL Scripts & DB Design** (Q3 2025)
+    - DB schema, initialization scripts, migration tools, optimization
+
+4. 🕐 **Frontend Core (Vue)** (Q3 2025)
+    - Components, state management, routing, responsive layout
+
+5. 🕐 **YOLO Detection Algorithm** (Q4 2025)
+    - Implementation, training scripts, pretrained models, evaluation
+
+6. 🕐 **YOLO Segmentation** (Q4 2025)
+    - Instance/semantic segmentation, optimization & acceleration
+
+7. 🕐 **YOLO Classification** (Q4 2025)
+    - Classification models, transfer learning, multi-label, compression
+
+### 🚀 Deployment Guide
+
+> ⚠️ Currently under construction. Full documentation coming soon.
+
+Supports local, production, and cloud deployment:
+
+- **Local Dev**
+    - For development and debugging
+    - Requires Docker and dependencies
+    - Includes one-click scripts
+
+- **Production**
+    - Docker Compose & Kubernetes supported
+    - HA and load balancing options
+
+- **Cloud**
+    - AWS, Alibaba Cloud, Tencent Cloud
+    - Serverless architecture supported
+
+### 🤝 Contribution Guide
+
+We welcome community contributors!
+
+1. Fork this repo
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -m 'Add new feature'`
+4. Push: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+Please ensure code style and tests pass. See `CONTRIBUTING.md`.
+
+### 📄 License
+
+Apache License 2.0. See `LICENSE` file.
+
+### 📞 Contact Us
+
+- Website: [https://www.neurobot.co](https://www.neurobot.co/)
+- Email: contact@neurobot.co
+- GitHub: [neurobot-ai · GitHub](https://github.com/neurobot-ai)
+
+---
+
+<div align="center">  
+<p>❤️ Thanks for supporting NeuroBot Vision ❤️</p>  
+<p>If you find this project valuable, please give us a star 🌟</p>  
 </div>
+
+---
+
+## 中文README
+
+请前往 👉 [README_zh.md](README_zh.md)
