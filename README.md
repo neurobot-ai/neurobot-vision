@@ -18,9 +18,8 @@
 
 ---
 
-## 📝 English README
+## 📝 About the Platform
 
-### About the Platform
 
 **NeuroBot Vision** is a powerful online visual development platform aimed at lowering the barriers to entry for computer vision technology. It helps developers, researchers, and enterprises build, deploy, and manage intelligent visual applications quickly.
 
@@ -30,39 +29,39 @@ The platform adopts a decoupled frontend-backend architecture:
 - **Frontend:** Built with Vue
 - **Backend:** Spring Framework + Python ML ecosystem
 
-### ✨ Features
+## ✨ Features
 
-#### 1. Data Management & Annotation
+### 1. Data Management & Annotation
 - Supports uploading and managing various image formats
 - Provides intuitive annotation tools (bounding boxes, polygons, keypoints)
 - Annotation progress tracking & team collaboration
 - Data versioning and rollback
 
-#### 2. Model Training & Management
+### 2. Model Training & Management
 - Visualized training process with parameter tuning
 - Built-in classic CV models, ready to use
 - Support for custom model import and training
 - Real-time training logs and monitoring
 - Model versioning and performance comparison
 
-#### 3. Vision Tasks Supported
+### 3. Vision Tasks Supported
 - **Object Detection** – Detect and locate multiple targets
 - **Image Segmentation** – Pixel-level object region segmentation
 - **Classification** – Image-level content recognition
 - **Real-time Video** – Supports live camera and video file analysis
 
-#### 4. Deployment & Integration
+### 4. Deployment & Integration
 - One-click deployment as API service
 - Supports cloud, edge deployment options
 - SDKs and API documentation for easy integration
 - Application performance monitoring and logging
 
-#### 5. Team Collaboration & Permissions
+### 5. Team Collaboration & Permissions
 - Multi-role user and permission control
 - Project sharing and collaborative development
 - Operation logs and auditing
 
-### 🌟 Platform Advantages
+## 🌟 Platform Advantages
 
 1. **Agent-Based Visual Programming**  
    Build CV applications without deep ML knowledge via GUI
@@ -82,7 +81,7 @@ The platform adopts a decoupled frontend-backend architecture:
 6. **Open Source Ecosystem**  
    Fully open-source codebase, customizable for your needs
 
-### 📅 Open Source Roadmap
+## 📅 Open Source Roadmap
 
 1. ✅ **Java Common Components**
     - Utility classes
@@ -126,7 +125,7 @@ The platform adopts a decoupled frontend-backend architecture:
     - multi-label
     - compression
 
-### 🚀 Deployment Guide
+## 🚀 Deployment Guide
 
 > ⚠️ Currently under construction. Full documentation coming soon.
 
@@ -145,7 +144,7 @@ Supports local, production, and cloud deployment:
     - AWS, Alibaba Cloud, Tencent Cloud
     - Serverless architecture supported
 
-### 🤝 Contribution Guide
+## 🤝 Contribution Guide
 
 We welcome community contributors!
 
@@ -157,11 +156,11 @@ We welcome community contributors!
 
 Please ensure code style and tests pass. See `CONTRIBUTING.md`.
 
-### 📄 License
+## 📄 License
 
 Apache License 2.0. See `LICENSE` file.
 
-### 📞 Contact Us
+## 📞 Contact Us
 
 - Website: [https://www.neurobot.co](https://www.neurobot.co/)
 - Email: contact@neurobot.co
