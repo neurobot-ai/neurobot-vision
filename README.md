@@ -85,25 +85,46 @@ The platform adopts a decoupled frontend-backend architecture:
 ### 📅 Open Source Roadmap
 
 1. ✅ **Java Common Components**
-    - Utility classes, shared services, exception handling, logging
+    - Utility classes
+    - shared services
+    - exception handling
+    - logging
 
 2. 🕐 **Java Core Modules** (Coming soon)
-    - Business logic, permissions, data access, task scheduling
+    - Business logic
+    - permissions
+    - data access
+    - task scheduling
 
 3. 🕐 **SQL Scripts & DB Design** (Q3 2025)
-    - DB schema, initialization scripts, migration tools, optimization
+    - DB schema
+    - initialization scripts
+    - migration tools
+    - optimization
 
 4. 🕐 **Frontend Core (Vue)** (Q3 2025)
-    - Components, state management, routing, responsive layout
+    - Components
+    - state management
+    - routing
+    - responsive layout
 
 5. 🕐 **YOLO Detection Algorithm** (Q4 2025)
-    - Implementation, training scripts, pretrained models, evaluation
+    - Implementation
+    - training scripts
+    - pretrained models
+    - evaluation
 
 6. 🕐 **YOLO Segmentation** (Q4 2025)
-    - Instance/semantic segmentation, optimization & acceleration
+    - Instance
+    - semantic segmentation
+    - optimization
+    - acceleration
 
 7. 🕐 **YOLO Classification** (Q4 2025)
-    - Classification models, transfer learning, multi-label, compression
+    - Classification models
+    - transfer learning
+    - multi-label
+    - compression
 
 ### 🚀 Deployment Guide
 
@@ -154,7 +175,3 @@ Apache License 2.0. See `LICENSE` file.
 </div>
 
 ---
-
-## 中文README
-
-请前往 👉 [README_zh.md](README_zh.md)
