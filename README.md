@@ -12,6 +12,15 @@
 </div>
 
 <p>  
+<a href="https://www.neurobot.co">Official Website</a> •  
+<a href="#Features">Features</a> •  
+<a href="#Platform Advantages">Platform Advantages</a> •  
+<a href="#Open Source Roadmap">Open Source Roadmap</a> •  
+<a href="#Deployment Guide">Deployment Guide</a> •  
+<a href="#Contribution Guide">Contribution Guide</a>  
+</p>  
+
+<p>  
 🌐 <a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README.md">English</a> | <a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/README_zh.md">中文</a>  
 </p>  
 </div>
