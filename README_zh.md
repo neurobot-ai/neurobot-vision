@@ -149,7 +149,7 @@ NeuroBot Vision 是一个功能强大的在线视觉开发平台，旨在降低�
 
 只保留最简启动步骤：下载镜像、导入 Docker 并启动容器。更详细的部署教程请参见：
 
-https://github.com/neurobot-ai/neurobot-vision/blob/main/docs/deploy.md
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/docs/deploy_docker.md">部署文档</a>
 
 下载并导入镜像：
 

@@ -138,7 +138,7 @@ The platform adopts a decoupled frontend-backend architecture:
 
 Keep it minimal here: download the image, load it into Docker and start the container. For full deploy instructions and system requirements see:
 
-https://github.com/neurobot-ai/neurobot-vision/blob/main/docs/deploy.md
+<a href="https://github.com/neurobot-ai/neurobot-vision/blob/main/docs/deploy_docker.md">Deployment document</a>
 
 Download and load the image:
 
