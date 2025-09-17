@@ -134,24 +134,34 @@ The platform adopts a decoupled frontend-backend architecture:
     - multi-label
     - compression
 
-## 🚀 Deployment Guide
+## 🚀 Deployment (Quick start)
 
-> ⚠️ Currently under construction. Full documentation coming soon.
+Keep it minimal here: download the image, load it into Docker and start the container. For full deploy instructions and system requirements see:
 
-Supports local, production, and cloud deployment:
+https://github.com/neurobot-ai/neurobot-vision/blob/main/docs/deploy.md
 
-- **Local Dev**
-    - For development and debugging
-    - Requires Docker and dependencies
-    - Includes one-click scripts
+Download and load the image:
 
-- **Production**
-    - Docker Compose & Kubernetes supported
-    - HA and load balancing options
+```bash
+wget https://nbai-cloud-3-0.oss-ap-southeast-1.aliyuncs.com/docker-images/neurobot_vision_v1.tar
+docker load -i neurobot_vision_v1.tar
+```
 
-- **Cloud**
-    - AWS, Alibaba Cloud, Tencent Cloud
-    - Serverless architecture supported
+Start the container (example, GPU enabled, host port 38080 -> container 8080):
+
+```bash
+sudo docker run -idt --privileged=true --restart=always --gpus all --ipc=host -p 38080:8080 \
+  --name neurobot_vision neurobot_vision:v1 /app/scripts/start.sh
+```
+
+Verify the container:
+
+```bash
+docker ps | grep neurobot_vision
+docker logs -f neurobot_vision
+```
+
+(See linked docs for NVIDIA Container Toolkit installation and production guidance.)
 
 ## 🤝 Contribution Guide
 
